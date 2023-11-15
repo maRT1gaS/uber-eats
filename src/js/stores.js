@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "catalog-restaurants-list-loader"
   );
 
-  fetch(window.location.href + "api/restaurants")
+  fetch(window.location.origin + "api/restaurants")
     .then((res) => {
       return res.json();
     })
@@ -98,8 +98,8 @@ document.addEventListener("DOMContentLoaded", () => {
           dileveryTime
         );
 
-        // catalogRestaurantListElem.remove();
-        // catalogRestaurantList.appendChild(templateRestaurant);
+        catalogRestaurantListElem.remove();
+        catalogRestaurantList.appendChild(templateRestaurant);
       }
     });
 });
