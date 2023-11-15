@@ -1,0 +1,9 @@
+:root {
+  --white-color: #FFFFFF;
+  --alto-color: #E0E0E0;
+  --cod-gray-color: #1D1D1D;
+  --dove-gray-color: #626262;
+  --dove-gray-color-opacity: rgba(98, 98, 98, .5);
+  --boulder-color-opacity: rgba(117, 117, 117, .3);
+  --mine-shaft-color: #262626;
+}
