@@ -24,7 +24,7 @@ const getTemplateRestaurantCard = (
   catalogRestaurantsListItemImgElem.alt = title;
   catalogRestaurantsListItemImgElem.loading = "lazy";
   catalogRestaurantsListItemImgElem.src = imgSrc;
-  catalogRestaurantsListItemImgElem.width = 308;
+  catalogRestaurantsListItemImgElem.classList.add("catalog__restaurants__list__item__img")
 
   const catalogRestaurantsListItemInfoElem = document.createElement("div");
   catalogRestaurantsListItemInfoElem.classList.add(
