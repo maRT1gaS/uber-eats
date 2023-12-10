@@ -8,8 +8,14 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  
+  scroll-behavior: smooth;
 }
 
 main {
   flex: 1;
+}
+
+button {
+  cursor: pointer;
 }
